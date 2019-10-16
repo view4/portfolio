@@ -17,7 +17,6 @@ content.welcome.isDeleting = false;
 content.welcome.currentText = '';
 content.welcome.loopNumber = 0;
 
-
 functions.start = function() {
 	setTimeout(functions.whoAmI, 1500);
 	functions.changeImg();
@@ -108,7 +107,7 @@ functions.closeModal = function (event) {
 content.projects = {};
 
 content.projects.apple  = {
-	img: 'placeholder.png',
+	img: 'apple.png',
 	title: 'Recreating the apple webpage',
 	description: 'One of my first projects with plain HTML/CSS, it was a design orientated project to recreate the apple landing page.',
 	technologies: ['html', 'css']
@@ -158,7 +157,7 @@ functions.renderModalContent = function() {
 	var description = document.getElementById('modal-description');
 	var technologies = document.getElementById('modal-technologies');
 	console.log(keyObject)
-	image.style.backgroundImage = `url(${keyObject.img})`;
+	image.style.backgroundImage = `url(./images/${keyObject.img})`;
 	title.innerText = keyObject.title;
 	description.innerText = keyObject.description;
 };
