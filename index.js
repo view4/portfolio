@@ -88,10 +88,10 @@ functions.changeImg = function () {
 };
 
 functions.openModal = function () {
-	console.log('open modal here');
 	var modal = document.getElementById("my-modal");
-	console.log(modal)
-	modal.style.display = 'block';
+	modal.style.display = 'flex';
+
+	functions.renderModalContent.call(this);
 	
 };
 
@@ -103,5 +103,35 @@ functions.closeModal = function (event) {
 		modal.style.display = 'none';
 	}
 	
+};
+
+content.projects = {};
+
+content.projects.apple  = {
+	img: 'placeholder.png',
+	title: 'Recreating the apple webpage',
+	description: 'One of my first projects with plain HTML/CSS, it was a design orientated project to recreate the apple landing page.',
+	technologies: ['html', 'css']
+};
+
+content.projects.roboto = {
+	img: 'roboto.png',
+	title: 'Roboto roams',
+	description: 'Roboto is the roaming robot which can roam throughout the realms of his ipad home',
+	technologies: ['html', 'css', 'JS']
+};
+
+functions.renderModalContent = function() {
+	var id = this.id;
+	var keyObject = content.projects[id]; 
+
+	var image = document.getElementById('modal-image');
+	var title = document.getElementById('modal-title');
+	var description = document.getElementById('modal-description');
+	var technologies = document.getElementById('modal-technologies');
+	console.log(keyObject)
+	image.style.backgroundImage = `url(${keyObject.img})`;
+	title.innerText = keyObject.title;
+	description.innerText = keyObject.description;
 };
 functions.start();
