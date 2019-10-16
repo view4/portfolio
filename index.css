@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	height: 7vh;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background-color: darksalmon;
+	z-index: 3;
+}
+
+.row {
+	margin-right: 0px;
+}
+.nav-links {
+	display: flex;
+}
+
+.nav-link > a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Amatic SC',cursive;
+    	font-size: 26px;
+}
+
+.nav-title > h5 {
+	margin-bottom: 0px;
+	margin-left: 7px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 33px;
+}
+
+.welcome-screen {
+	width: 100%;
+	height: 93vh;
+	background-image: url('plain.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.figure {
+	margin: 10px;
+	height: 150px;
+	width: 300px;
+}
+
+.i-am-container {
+	position: absolute;
+	bottom: 72px;
+	left: 36px;
+}
+
+#typewriter-wrapper {
+	border-right: 0.2em solid black;
+}
+
+h1 {
+	font-family: 'Waiting for the Sunrise', cursive; 
+}
+#about-me{
+	height: 100vh;
+	width: 100vw;
+}
+
+#about-me > .row{
+	height: 50%;
+}
+
+#about-me > .row > div {
+	height: 100%;
+	justify-content: flex-start;
+	padding: 15px 35px 0px 35px;
+	text-align: justify;
+	font-family: monospace;
+	font-size: large;
+}
+
+#projects {
+	min-height: 100vh;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+.circle-image {
+	height:300px;
+	width:310px;
+	border-radius: 50%;
+	background-image: url('./images/Nate+I.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.image-square {
+	padding-top: 3px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
