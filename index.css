@@ -37,7 +37,7 @@ header {
 
 .welcome-screen {
 	width: 100%;
-	height: 93vh;
+	height: 100vh;
 	background-image: url('plain.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -48,6 +48,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .figure {
@@ -153,4 +154,30 @@ h1 {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.github {
+	height: 90px;
+	width: 90px;
+}
+
+footer > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 18px;
+}
+
+/* media queries */
+@media screen and (max-width: 480px){
+	.i-am-container{
+		bottom: 36%;
+	}
+	.nav-link > a {
+		font-size: 60px;
+	}
+	.nav-title > h5 {
+		font-size: 72px;	
+	}	
 }

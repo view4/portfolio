@@ -59,4 +59,55 @@ Add suitable content to the modals:
 
 I mentioned that I wish to complete this by tonight, and this is some kind of true, I hope to be doing some good through this and to be achieving some love because it is something which is important to me, and I love You and You are my God, my King and I wish to serve You. This is just one possibility and it may not be true.
 
-Okay so wow, this is working pretty well in all honesty, it is not something which is perfect, admittedly, but it it something which is still pretty cool, and I think that this is awesome and pretty great, it makes me somewhat happy and I am happy about this, I wish to serve You, and to be doing well and so thank You for this. I think that I then wish to be continuing with the content which is within this. So what is the next step? I suppose it is 
+Okay so wow, this is working pretty well in all honesty, it is not something which is perfect, admittedly, but it it something which is still pretty cool, and I think that this is awesome and pretty great, it makes me somewhat happy and I am happy about this, I wish to serve You, and to be doing well and so thank You for this. I think that I then wish to be continuing with the content which is within this. So what is the next step? I suppose it is. 
+So what is the next thing for me to be doing? Well I think there are a few things, so let me establish them and then I may continue. 
+
+To do: 
+
+Add content for the projects page: 
+	- speak of them. 
+	- eat be sated, and bless the L-rd...
+	- Love Hashem, 
+	- connect with meaning from my past. 
+	- care for others (I struggled with a lot of them). 
+
+Style the projects section better: 
+	- Do not make a graven image
+	- make fringes to the corner, (praising, glorifying meaning.)
+	- walk in His ways. 
+	- connect with freedom (There is freedom in how I may go about this). 
+
+Enable mobile responsiveness
+	- cleave to Him
+	- care for others. 
+	- walk in His ways. 
+	- Do not make a graven image.
+
+Add a footer? 
+	- eat, be sated, and bless. 
+	- Is there much more info for me to add? 
+		- contact info....
+		- potentially CV...
+
+Review whole? 
+	- eat be sated. 
+	- do not eat the sinew of the thigh.. 
+	- incorporate consciousness... 
+
+Ensure the projects are suitable to upload: 
+	- fear the L-rd
+	- connect with feeling
+	- add fringes to the corner of your garments. 
+	- let in consciousness 
+	- do not make a graven image. 
+
+Okay, well I am very scared because I feel like there is a lot to be doing still. I am especially scared of making changes to the projects which I have, and I think I should either make the modal something which is more fluid like a video example, or through making it a slideshow thing. The video could be easier than I think in all honesty. And I think in the best sense I should be having both.
+
+BAsically I have added the content for the orijects section, minus the images,a dn I am well aware that this is a base and it is not the finished piece this is the one thing about being conscious about being able to add things later is that it enables me to be lax about some things, in a ssense it takes the pressure off a bit, but it also prevents me a little bit from being more conscious about the quality of things a bit.
+
+I think a lot of the hard bits, a lot fo the technical bits I have achieved there is functionality across almost the lot, and so I guess the rest is other things, raising it up in a small sense, trying to improve it. To glorify and to add to that which is kind of here. So I feel relatively good I just feel anxious about the smalle things but I don't really think it is something which I should let get to me too much, just to kind of do well, to soldier on, to care about some of the small things, about others, and about meaning. It is not about bugs for me but about doing some level of good. I am hungry!!!!!
+
+I am having issues to do a couple of things, I am struggling to format the projects section in a better manner, and I am also struggling to deal with the resonsiveness of the site and this is something which bothers me a fair bit.
+
+
+I'm not going to worry about the cv right now, and so I think I can either come back to this or add it later, because it is not something which is the main thing at the moment. I can also craft the draft email, because it may be a good thing to turn onto something else, but I'm not certain if I want to. The main thing next for me is the portfolio section, and also the styling of the footer section because I think that this matters a bit.

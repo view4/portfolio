@@ -121,6 +121,34 @@ content.projects.roboto = {
 	technologies: ['html', 'css', 'JS']
 };
 
+content.projects.tv = {
+	img: 'roboto.png',
+	title: 'Netflix who?',
+	description: 'I enabled many features on this project, including enabling the search feature, dealing with template pages and also working with api endpoints',
+	technologies: ['html', 'css', 'JS', 'python', 'bottle']
+};
+
+content.projects.toDo = {
+	img: 'roboto.png',
+	title: 'To do app',
+	description: 'Roboto is the roaming robot which can roam throughout the realms of his ipad home',
+	technologies: ['html', 'css', 'JS', 'firebase']
+};
+
+content.projects.teachings = {
+	img: 'roboto.png',
+	title: 'Values, values, values...',
+	description: 'OF my personal favourites, and not for its technological complexity. This web app enables one to connect with their core values in many different ways.',
+	technologies: ['html', 'css', 'JS', 'firebase']
+};
+
+content.projects.memory = {
+	img: 'roboto.png',
+	title: 'Memory game',
+	description: 'This was my first React project. This is an example fof the classic memory game, based on one of the best things in life... Food!',
+	technologies: ['html', 'css', 'JS', 'React']
+};
+
 functions.renderModalContent = function() {
 	var id = this.id;
 	var keyObject = content.projects[id]; 
