@@ -1,9 +1,13 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!--<meta content="width=device-width, initial-scale=1" name="viewport" />-->
 		<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-		<link rel='stylesheet' href='index.css'>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 500px)" href="index.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 500px)" href="mobile.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 501px)" href="index.css" />
+		<!--<link rel='stylesheet' content="width=device-width, initial-scale=1.0"href='index.css'>-->
 	</head>
 	
 	<body>
@@ -21,6 +25,9 @@
 				<div class='nav-link'>
 					<a href ='#projects'>projects</a>
 				</div>
+				<div class='nav-link'>
+					<a href ='#contact'>contact</a>
+				</div>
 			</div>
 		</header>
 		<section id='home'>
@@ -36,29 +43,31 @@
 			</div>
 		</section>
 		<section id='about-me'>
-			<div class="row flex stack">
+			<div class="row flex">
 				<div class=" col-12 col-sm-12 col-md-6  flex vertical">
 					<h2> my values</h2>
 					<p>
-						I try and put my values first and I cautiously consider myself to be a value-driven individual. Values are grounding and continuously they have provided me with excessive guidance. 
+						I try very much to be a value-driven person. In the whirlwind and complexity of Life, values can be a great source of support, guidance, comfort and more...
+						<br>
+						I value team-work, independence, strong-morals and doing what you're passionate about. 
 					</p>
 				</div>
 				<div class="col-12 col-sm-12 col-md-6 flex vertical image-square">
-					<div class="circle-image" id="slide">
+					<div class="circle-image" id="slide"></div>
 				</div>
 			</div>
 			<div class="row flex">
 				<div class="col-12 col-sm-12 col-md-6  flex vertical">
 					<h2> likes </h2>
 					<p>
-						Besides programming I have many joys and passions. I am very interested in philosophy, religion and morality. I also enjoy writing about them, and I enjoy writing poetry too. I feel writing is a great way to express oneself. I also enjoy cooking, and food generally, and I also enjoy listening to music.
+						Besides programming I have other passions and joys. I am very interested in philosophy, religion and morality, and I enjoy writing about them too. Generally, I enjoy writing very much- it's a great way to both express oneself and connect with one's inner thoughts. I also enjoy cooking, food generally, and listening to music.
 					</p>
 				</div>
 				<div class="col-12 col-sm-12 col-md-6 flex vertical">
 
 					<h2> snippet of my story</h2>
 					<p>
-						I grew up in London, studied in Newcastle, and I'm now based in Tel-Aviv. In university I achieved a 2:1 bsc hons in Biomedical Sciences. However, I am so much more than the degree I achieved at university, which is why when I graduated I wanted to pursue new things, and I begun to learn computer programming.
+						I grew up in London, studied in Newcastle, and am currently based in Tel-Aviv. In university I achieved a 2:1 bsc hons in Biomedical Sciences. However, after graduating I felt there was so much I wanted to do and learn about which lay outside of my fielf of study. Shortly afterwards I begun to learn computer programming, eventually going on to complete the Israel Tech Challenge coding course.
 					</p>
 				</div>
 			</div>
@@ -66,7 +75,7 @@
 		<section id='projects'>
 			<div class="row flex">
 				<div class="col-sm-4 flex">
-					<h2> Projects I've worked on: </h2>
+					<h2 class="projects-title"> Projects I've worked on! </h2>
 				</div>
 			</div>
 			<div class="flex row">
@@ -74,11 +83,19 @@
 					<div id='my-modal' class=modal>
 						<div class='modal-content'>
 							<span class="close">&times;</span>
+							<div class="carousel-container">
+								<div class="myslides"> </div>
+									<a class="prev">&#10094;</a>
+  									<a class="next">&#10095;</a>
+									<div style="text-align:center">
+									  <span class="dot one"></span>
+									  <span class="dot two"></span>
+									  <span class="dot three"></span>
+									</div>	
+							</div>
 							<h3>
 								<span id='modal-title'></span>
-							 </h3>
-							<div id='modal-image'>	
-							</div>
+							</h3>
 							<p id='modal-description'>
 							</p>
 							<div id='modal-technologies'>
@@ -86,38 +103,43 @@
 						</div>
 					</div>
 					<figure class="figure" id="tv">
-					  <img src="./images/tv.png" class="figure-img img-fluid rounded" >
 					  <figcaption class="figure-caption">Netflix who?</figcaption>
+					  <img src="./images/tv-one.png" class="figure-img img-fluid rounded" >
 					</figure>
 					<figure class="figure" id="toDo">
 					  <figcaption class="figure-caption">To do app</figcaption>
+						<img src="./images/todo-one.png" class="figure-img img-fluid rounded" >
 					</figure>
 					<figure class="figure"id="teachings">
-					  <img src="placeholder.png" class="figure-img img-fluid rounded" >
 					  <figcaption class="figure-caption">Values, values, values ...</figcaption>
+					  <img src="./images/teachings-one.png" class="figure-img img-fluid rounded" >
 					</figure>
 					<figure class="figure" id='apple'>
-					  <img src="./images/apple.png" class="figure-img img-fluid rounded" >
 					  <figcaption class="figure-caption">Apple webpage</figcaption>
+					  <img src="./images/apple.png" class="figure-img img-fluid rounded" >
 					</figure>
 
 					<figure class="figure" id='roboto'>
-					  <img src="./images/roboto.png" class="figure-img img-fluid rounded" >
 					  <figcaption class="figure-caption">Roboto roams</figcaption>
+					  <img src="./images/boto-one.png" class="figure-img img-fluid rounded" >
 					</figure>
 					<figure class="figure" id="memory">
-					  <img src="placeholder.png" class="figure-img img-fluid rounded" >
 					  <figcaption class="figure-caption">Memory game</figcaption>
+					  <img src="./images/memory-one.png" class="figure-img img-fluid rounded" >
 					</figure>
 				</div>
 			</div>
-		<footer>
+		</section>
+		<footer id="contact">
 			<div>
 				<h4>Contact: </h4>
 				<span>
 				email: morrisgaby987@googlemail.com
 				||
 				phone: +972 (0)58-5902133
+				</span>
+				<span>
+					Warning this is not fully responsive yet!
 				</span>
 				<span>
 					<a href="https://github.com/view4" target="_blank">				
@@ -130,7 +152,6 @@
 
 		</footer>
 
-		</section>
 		<script src='index.js'></script>
 	</body>
 </html>

@@ -1,0 +1,29 @@
+/* media queries */
+@media screen and (min-width: 480px){
+	.i-am-container{
+		bottom: 36%;
+	}
+	.nav-link > a {
+		font-size: 60px;
+	}
+	.nav-title > h5 {
+		font-size: 72px;	
+	}
+	#about-me > .row {
+		flex-direction: column;
+	}
+
+	#about-me > .row > div{
+		font-size: 36px;
+		text-align: center;
+		padding: 0px;
+		margin-top: 10px;
+	}
+	#about-me > .row > div > h2{
+		font-size: 45px;
+	}
+}
+
+#projects {
+	min-height: unset;
+}

@@ -119,3 +119,29 @@ I don't like listing everything there is to be doing in one go because it feels 
 					-->
 
 Regardless of the end-goal, of trying to get this and trying to finish this tonight, I have still made some very good progress with this, and for this I am glad and I am grateful and so I love You and I think You are special and good to me and I wish to continue be doing that which is good to You. Thanks for the food!!!!!!
+
+Thank You for Your help, I am grateful, and I hope that good things continue through this, I hope to achieve some good, and to be doing some of that which is well and good.
+
+Regarding values, values, values, i.e. the jerusalem, or the bringing forth of teachings thing, this is a chance for me to raise it up. Yes, I do feel anxious about sharing it, and it is something which I feel nervous about. I want the job opp for the Temple to bring forth and establish my beliefs and because it is important for me. I want to overcome my limitations and the struggles I am facing and to connect with Life.
+
+I have a problem with the about-me section which is overflowing into the projects section. It is a bit bothersome because the project section is not adjusting accordingly to be shifted down. Thank You!!! 
+
+I have a problem where sometimes when the page is being loaded the font correct font does not change with it and this bothers me quite a bit. Perhaps it would be fixed, I am not sure. I would rather it is not displayed until the right font appears but I do not know how to deal with this. 
+
+Everyone has got a bit of personality somewhere and so I think that this is something which is special. Sometimes it is hard for me to come out of my shell. 
+
+row -> flex col
+div: font-size --> 45px, justify-text: left, increase title size
+
+
+Mobile responsiveness: 
+
+Projects are too small 
+modal is too big 
+
+Working with wordpress doing professional websites amy help me with my main weakness which is perhaps professionalism which I feel is not a weakness but a blessing in many ways. And perhaps being a bit more design orientated in my code. Because I think that I have for a long time feared, that this is like idealisation and not a good thing, and I have focused a lot more on the functional aspects of coding. 
+
+There is really a lot of freedom in Life and there are lots of way to connect with Life and to be doing things and I believe in you. I think that You are special and good to me. I know You are kind and good to me. You are my God and You are good to me, You always have been and I love Life in return. I think You are special and good to me. I wish to connect with good. Yet, I am really struggling with a few things, with the pressure of trying and wanting to finish this portfolio task quickly, it is something which is quite annoying in honesty, it is about 7pm. I do not know what will be. I believe in meaning. I'm struggling to deal with confidence for I fear that this is not professional enough, I also fear that I am struggling with the responsiveness of this and this bothers me. I am also worried that the lady would say no, but the portfolio page is important regardless of this, because it can be used for so much. I am very grateful that she did not reach out to me until now, because I was aunable to be doing these things beforehand and so it came at a good time. I hope I really hope to reply to her tomorrow, but I do not know if I would be able to. I am worried about how much work there is to be doing on the portfolio still. I am worried that I have not been working on enough professional projects already. I am worried about the images for this, I am scared of worshipping ideas. I also think that this would be a very good gig for me, it would not be the most tech advanced if I were to use wordpress, but I still think it would be something which is pretty good.I am worried about being lead astray, I am now worried about smoking, and I am scared of how long this could take. Is there anything else? Well it is still a small site, it is not massive, there are only a few projects, no massive one's which are on there at the moment.
+
+I want this for so many things! 
+But largely for the Sanctuary, so incorporate my values into this, give them a place, lend my consciousness tot hat which is good and to love, because this is something which is important and matters.
